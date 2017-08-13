@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title: "Qiang"
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "Qiang Wang's blog"
+
+# Tagline near the site title
+tagline: "Thoughts, stories and ideas."
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl:
+
+sass:
+  sass_dir: _sass
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "https://archerwq.github.io"
+
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Archives
+  url: /tags/
+
+# The shortname for your Disqus site to enable comments.
+disqus: archerwq
+
+# Author information - author info at the bottom of the post
+author_name: "Qiang Wang"
+author_bio: "软件工程师 / Coldplay粉丝 / 热爱篮球和足球 / 女儿奴"
+author_url:  "https://archerwq.github.io/"
+author_location: "Zhuhai, Guangdong, China"
+author_image: /images/monkey.png
+
+# Sidebar Add banner
+banner_url: 
+banner_image: 
+
+# Sidebar newsletter widget - add your form action url for MailChimp signup form here
+mailchimp_url: 
+
+# Social links in the site footer
+twitter_username: "JohnnyWq"
+facebook_username: 
+googleplus_username: 
+github_username: "archerwq"
+codepen_username: 
+dribbble_uername: 
+medium_username: 
+instagram_username: 
+pinterest_username: 
+linkedin_username: "qiang-wang-681b6933"
+weibo_username: "keeplooking"
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 3
+paginate_path: '/blog/page:num/'
+plugins: [jekyll-paginate]
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+    auto_ids: false
+
+img_path: https://pic.imgdb.cn/item
+#img_path: https://cdn.img.wenhairu.com/images
+#img_path: /images/posts
