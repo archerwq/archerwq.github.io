@@ -36,11 +36,12 @@ navigation:
 disqus: archerwq
 
 # Author information - author info at the bottom of the post
-author_name: "Qiang Wang"
+author_name: "然后怎样"
 author_bio: "软件工程师 / Coldplay粉丝 / 热爱篮球和足球 / 女儿奴"
 author_url:  "https://archerwq.github.io/"
 author_location: "Zhuhai, Guangdong, China"
-author_image: /images/monkey.png
+#author_image: /images/monkey.png
+author_image: https://pic.imgdb.cn/item/5f9a34751cd1bbb86bbc8e7a.png
 
 # Sidebar Add banner
 banner_url: 

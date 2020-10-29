@@ -2,7 +2,7 @@
 layout: page
 title: About Qiang
 description: Self introduction.
-banner_image: 5f9a318e1cd1bbb86bbc0415.jpg
+banner_image: 
 ---
 
 **Qiang** 自认为是一名靠谱的软件工程师，热爱编程，热爱学习，不断拓展、打磨自身技能栈，并乐在其中。
