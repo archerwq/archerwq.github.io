@@ -15,7 +15,7 @@ Java日志方案有很多，包括：java.util.logging、Apache的commons-loggin
 > Logback is intended as a successor to the popular log4j project. It was designed by Ceki Gülcü, log4j’s founder. It builds upon a decade of experience gained in designing industrial-strength logging systems. The resulting product, i.e. logback, is faster and has a smaller footprint than all existing logging systems, sometimes by a wide margin. Just as importantly, logback offers unique and rather useful features missing in other logging systems.  
 
 下面这张图能够很好地说明slf4j和各个日志框架集成的原理：
-{% include image_caption.html imageurl="/images/posts/slf4j_integration.png" caption="sl4j integration" %}
+![slf4j_integration]({{site.img_path}}/5f959f851cd1bbb86ba5d80d.png)
 
 slf4j-api.jar里的org.slf4j.LoggerFactory会调org.slf4j.impl.StaticLoggerBinder，这个StaticLoggerBinder在logback-classic.jar里实现，这样就把slf4j的日志绑定到logback了。这时，如果classpath里同时还有slf4j-log4j12.jar那么会报multiple SLF4j bindings错误，因为slf4j-log4j12.jar里也有StaticLoggerBinder实现。
 

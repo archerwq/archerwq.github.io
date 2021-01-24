@@ -12,10 +12,11 @@ tags: [Tech]
 
 **`git rebase -i HEAD~2`**  
 敲完这个命令并回车后，会出现类似下图所示界面:  
-{% include image_caption.html imageurl="/images/posts/git_rebase_1.jpeg" caption="git rebase #1" %} 
+![git_rebase_1]({{site.img_path}}/5f959f1b1cd1bbb86ba5bad0.jpeg)
 
 根据提示，把第二个“pick”改成“squash”，这样就可以把第二个commit合并到到第一个里，修改并保存后会出现类似下图所示界面:  
-{% include image_caption.html imageurl="/images/posts/git_rebase_2.jpeg" caption="git rebase #2" %}
+![git_rebase_2]({{site.img_path}}/5f959f1b1cd1bbb86ba5bad3.jpeg)
+
 这个界面会把两次commit的comments列出来，你可以任意修改成想要的注释，然后保存即可。  
 
 如果想合并多个commit，把2改成相应的数字即可。另外，如果commit已经push到远程，最好就不要再去合并了，否则会比较麻烦，老老实实再提交commit吧，注释写清楚一些就好。

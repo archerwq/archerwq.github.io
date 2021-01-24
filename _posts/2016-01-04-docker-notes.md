@@ -11,7 +11,7 @@ tags: [Tech]
 <!--more-->
 
 Docker基于操作系统之上，是进程级别的隔离，比虚机更轻量级。  
-{% include image_caption.html imageurl="/images/posts/docker_vs_vm.png" caption="VM vs. Docker" %} 
+![docker_vs_vm]({{site.img_path}}/5f959f1b1cd1bbb86ba5baa6.png)
 
 Docker包括两部分:  
 
