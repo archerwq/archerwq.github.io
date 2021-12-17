@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 中年鸡汤
-date: 2021-02-14
+date: 2021-11-28
 banner_image: 61a2c6b32ab3f51d9157fe8f.jpg
-tags: [Zhuhai]
+tags: [Thoughts]
 ---
 
 今天头条刷到一个鸡汤文《想对35岁的自己说这10句话》，感觉对身处中年状态的我挺受用，摘抄一下。
