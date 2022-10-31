@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">    
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> 
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <link rel="shortcut icon" href="{{ "/favicon.ico?" | prepend: site.baseurl }}">
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ " /favicon.ico?" | prepend: site.baseurl }}">
     <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic" />-->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
     <link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Feed" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Feed" href="{{ " /feed.xml" | prepend:
+        site.baseurl | prepend: site.url }}">
 
     <meta name="baidu-site-verification" content="0gF3fFOp3Z" />
-    <script>
+    <!-- <script>
         var _hmt = _hmt || [];
         (function() {
             var hm = document.createElement("script");
@@ -20,26 +23,37 @@
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
+    </script> -->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?449019210b86a34b34cd58c9d131e978";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
     </script>
 </head>
+
 <body>
     <nav id="top" class="site-navigation">
         <div class="inner">
             <button id="menu-toggle" aria-expanded="false">Menu</button>
             <div class="nav-menu">
                 <ul class="menu">
-                {% for link in site.navigation %}
-                  {% assign current = nil %}
-                  {% if page.url == link.url %}
+                    {% for link in site.navigation %}
+                    {% assign current = nil %}
+                    {% if page.url == link.url %}
                     {% assign current = 'nav-current' %}
-                  {% endif %}
-                  <li class="{{ current }}">
-                    <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
-                  </li>
-                {% endfor %}
-                </ul>        
+                    {% endif %}
+                    <li class="{{ current }}">
+                        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div><!-- .nav-menu -->
-            <a class="subscribe-button fa-feed square fill-horizontal" href="{{site.baseurl}}/feed.xml"><span class="screen-reader-text">Subscribe</span></a>
+            <a class="subscribe-button fa-feed square fill-horizontal" href="{{site.baseurl}}/feed.xml"><span
+                    class="screen-reader-text">Subscribe</span></a>
         </div><!-- .inner -->
     </nav><!-- .site-navigation -->
     <header class="site-header">
@@ -54,4 +68,5 @@
     <script type="text/javascript" src="{{ site.baseurl }}/js/plugins.js"></script>
     <script type="text/javascript" src="{{ site.baseurl }}/js/custom.js"></script>
 </body>
+
 </html>
