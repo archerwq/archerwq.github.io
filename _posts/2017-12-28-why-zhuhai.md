@@ -31,6 +31,7 @@ tags: [Thoughts, Zhuhai]
 * [搬家珠海](https://www.doyj.com/2013/07/29/%E6%90%AC%E5%AE%B6%E7%8F%A0%E6%B5%B7/) : 考虑移居珠海时受到过这篇博客的影响，博主正是“逃北者”的群主，上次出差美国恰巧他也在硅谷，很荣幸请我喝了一杯咖啡，聊了一个小时，让我对来珠海的生活有了一些预期。
 * [珠海这座城市怎么样？](https://www.zhihu.com/question/21003671): 知乎上关于珠海回答比较多的一个话题，都还比较客观，兼听则明。
 * [Chinese New Year -- Zhuhai Opens New Window of Dialogue with the World](http://subsites.chinadaily.com.cn/zhuhai/2018-02/24/c_146227.htm)：最近USA Today针对珠海的整版报道（2018.2.25更新）
+* [焦虑的北京中产，为什么都去珠海重新开始](https://mp.weixin.qq.com/s/q7pQk4HkyQmfTBhODig3UA) 这篇是三位群友的访谈，感觉编辑有夸张成分，仅供参考
 
 
 ----------------------
