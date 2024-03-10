@@ -3,7 +3,7 @@ layout: post
 title: 疫情下的珠海
 date: 2022-08-23
 banner_image: 62b81e342f25919088019079.jpg
-tags: [Covid, Zhuhai, Thoughts]
+tags: [Zhuhai, Thoughts]
 ---
 
 疫情已经持续快三年了，北上广深等大城市轮番上演隔离封城静默，偏居一隅的珠海波及不多，除了疫情刚开始的全国性居家办公以外，基本上都比较平静。截至目前，累计确诊不到300，防疫总体科学有效，对生活和工作影响不是特别大。
