@@ -3,7 +3,7 @@ layout: post
 title: 北京小汽车如何弄到外地
 date: 2017-12-05
 banner_image: 5f959f1b1cd1bbb86ba5ba93.jpg
-tags: [Misc]
+tags: [Story]
 ---
 
 最近在忙着搬家到珠海，其中一项很繁琐的事情就是怎么把车弄到那边，在这里写写我的经历，供参考。
