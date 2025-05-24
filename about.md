@@ -5,7 +5,7 @@ description: Self introduction.
 banner_image: 
 ---
 
-自认为是一名靠谱的软件工程师，热爱编程，热爱学习，不断拓展、打磨自身技能栈，并乐在其中。
+自认为是一名靠谱的软件工程师，热爱编程，热爱学习，不断打磨拓展自身技能栈，并乐在其中。
 
 自从2009年北邮硕士毕业，先后在[EBUPT](https://www.ebupt.com),  [IBM](https://www.ibm.com/cn-zh),  [Qunar](https://train.qunar.com)工作过，目前供职于一家美国SaaS创业公司[Zuora](https://www.zuora.com).  一直以来都是从事后端开发，对Java相关技术栈、微服务、SaaS比较熟悉。经历过中美不同风格不同规模的公司、团队和项目，对软件工程方方面面有比较深刻认识。
 

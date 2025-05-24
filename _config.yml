@@ -21,7 +21,7 @@ sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "https://archerwq.github.io"
+url: "https://archerwq.cn"
 
 # Site navigation - each item must have a title and a url.
 navigation:
@@ -37,11 +37,11 @@ disqus: archerwq
 
 # Author information - author info at the bottom of the post
 author_name: "然后怎样"
-author_bio: "软件工程师 / ❤️篮球 / ❤️文学 / ❤️摇滚乐 / 女儿奴"
+author_bio: "软件工程师 / ❤️篮球 / ❤️文学 / ❤️摇滚 / 女儿奴"
 author_url:  "https://archerwq.cn/"
 author_location: "Zhuhai, Guangdong, China"
 #author_image: /images/monkey.png
-author_image: https://pic.imgdb.cn/item/600d9f8b3ffa7d37b38c2d06.jpg
+author_image: https://pic1.imgdb.cn/item/6831478758cb8da5c80b1962.png
 
 # Sidebar Add banner
 banner_url: 
@@ -61,7 +61,7 @@ medium_username:
 instagram_username: 
 pinterest_username: 
 linkedin_username: "archerwq"
-weibo_username: "keeplooking"
+weibo_username: 
 
 # http://jekyllrb.com/docs/pagination/
 paginate: 3
@@ -74,5 +74,4 @@ kramdown:
     auto_ids: false
 
 img_path: https://pic.imgdb.cn/item
-#img_path: https://cdn.img.wenhairu.com/images
-#img_path: /images/posts
+

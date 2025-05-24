@@ -3,7 +3,7 @@ layout: post
 title: 错乱的叙事
 date: 2024-10-01
 banner_image: 66fcba3af21886ccc0a40652.jpg
-tags: [Thoughts, Travel, Review]
+tags: [Thoughts, Travel, Review, Story]
 ---
 
 电瓶车在黑夜里风驰电掣在阳朔街头，高耸入星空的山峰不时闯入视野。

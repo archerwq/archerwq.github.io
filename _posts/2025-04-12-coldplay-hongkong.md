@@ -3,7 +3,7 @@ layout: post
 title: 人生体验+1
 date: 2025-04-13
 banner_image: 67fe76eb88c538a9b5d1f242.png
-tags: [Thoughts]
+tags: [Thoughts, Review, Story]
 ---
 
 记不得从什么时候开始听Coldplay的，温暖明亮的色彩英伦摇滚，极具隐喻和诗意的歌词，搭配Chris Martin充满倾诉感的嗓音，营造出如“暖阳般抚慰人心”的氛围。自从网易云音乐推出个人年度总结，有好几年都是Coldplay占据了我的年度歌手。
