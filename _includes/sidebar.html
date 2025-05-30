@@ -37,6 +37,9 @@
             <li class="recent-item"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date: "%B %-d, %Y" }}</span></li>
             {% endfor %}
         </ul><!-- .recent-posts -->
+        <p class="more-link-wrap" style="margin-top: 1em;">
+            <a class="more-link" href="{{ site.baseurl }}/tags/" style="color: #87CEEB;">更多...</a>
+        </p>
     </section><!-- .widget-recent-posts -->
 
     <!--Create a sorted array of tags-->
