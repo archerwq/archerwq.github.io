@@ -857,6 +857,10 @@ a.archive-top-link:hover {
         padding-right: 15px;
     }
 
+    .nav-menu.toggled-on {
+        display: block;
+    }
+
     .nav-menu li {
         border-bottom: 2px solid lighten( $mine-shaft, 4% );
         display: block;

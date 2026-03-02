@@ -15,7 +15,6 @@
     <link rel="dns-prefetch" href="https://pic.imgdb.cn">
     <link rel="preconnect" href="https://pic1.imgdb.cn">
     <link rel="dns-prefetch" href="https://pic1.imgdb.cn">
-    <link rel="dns-prefetch" href="https://code.jquery.com">
     <!-- Critical CSS - Load synchronously to prevent FOUC -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     <noscript><link rel="stylesheet" href="{{ site.baseurl }}/css/main.css"></noscript>
@@ -57,7 +56,6 @@
     {{content}}
     {% include footer.html %}
     <!-- Load non-critical scripts at the end with defer -->
-    <script defer src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
     <script defer src="{{ site.baseurl }}/js/plugins.js"></script>
     <script defer src="{{ site.baseurl }}/js/custom.js"></script>
 </body>
