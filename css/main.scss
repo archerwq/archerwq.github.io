@@ -488,9 +488,29 @@ a.archive-top-link:hover {
     border-bottom: 2px solid $gallery;
     font-size: 20px;
     text-transform: uppercase;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     padding-bottom: 30px;
     margin-bottom: 40px;
+}
+
+.disqus-load-wrap {
+    margin-bottom: 24px;
+}
+
+.disqus-load-btn {
+    background-color: $picton-blue;
+    border: 0;
+    color: $white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+}
+
+.disqus-load-btn:hover {
+    background-color: lighten( $picton-blue, 11% );
 }
 
 /**
@@ -544,13 +564,22 @@ a.archive-top-link:hover {
 }
 
 .post-navigation .nav-thumb {
-    background-position: center;
-    background-size: cover;
+    display: block;
     height: 100%;
     position: absolute;
     right: 0;
     top: 0;
     width: 260px;
+}
+
+.post-navigation .nav-thumb img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
 }
 
 .post-navigation .nav-title {
