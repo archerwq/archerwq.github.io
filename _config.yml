@@ -32,8 +32,18 @@ navigation:
 - text: Archives
   url: /tags/
 
-# The shortname for your Disqus site to enable comments.
-disqus: archerwq
+# Giscus comments (powered by GitHub Discussions)
+# Setup: 1) Enable Discussions on your repo  2) Install https://github.com/apps/giscus
+#        3) Go to https://giscus.app to get repo_id and category_id
+giscus:
+  repo: "archerwq/archerwq.github.io"
+  repo_id: "MDEwOlJlcG9zaXRvcnk4MjczNzk0NQ=="
+  category: "General"
+  category_id: "DIC_kwDOBO57Gc4C5Z7D"
+  mapping: "pathname"
+  reactions_enabled: "1"
+  theme: "light"
+  lang: "zh-CN"
 
 # Author information - author info at the bottom of the post
 author_name: "然后怎样"

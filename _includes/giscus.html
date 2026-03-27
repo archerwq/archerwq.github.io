@@ -1,0 +1,23 @@
+<div class="comments-area">
+    <div class="comments-inner">
+        <h2 class="comments-title">Comments</h2>
+        <div class="giscus"></div>
+    </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script src="https://giscus.app/client.js"
+        data-repo="{{ site.giscus.repo }}"
+        data-repo-id="{{ site.giscus.repo_id }}"
+        data-category="{{ site.giscus.category }}"
+        data-category-id="{{ site.giscus.category_id }}"
+        data-mapping="{{ site.giscus.mapping | default: 'pathname' }}"
+        data-strict="0"
+        data-reactions-enabled="{{ site.giscus.reactions_enabled | default: '1' }}"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="{{ site.giscus.theme | default: 'light' }}"
+        data-lang="{{ site.giscus.lang | default: 'zh-CN' }}"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
